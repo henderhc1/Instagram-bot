@@ -1,4 +1,4 @@
-from bot.auth import login
+from bot.auth import login_with_session
 from instagrapi.exceptions import LoginRequired
 
 def like_posts_from_hashtag(hashtag, count=10):
