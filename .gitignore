@@ -1,4 +1,5 @@
 credentials.py 
 image_getter.py
+quote_getter.py
 __pycache__/
 *.pyc
