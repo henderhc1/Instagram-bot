@@ -10,7 +10,7 @@ from instagrapi.exceptions import (
 from requests.exceptions import RetryError
 import urllib3
 
-import credentials  # expects IG_USERNAME, IG_PASSWORD
+import credentials as credentials  # expects IG_USERNAME, IG_PASSWORD
 
 # Store session.json at the project root (…/mediabot/session.json)
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))

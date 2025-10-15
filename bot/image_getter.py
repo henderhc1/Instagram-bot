@@ -3,15 +3,14 @@ import os
 import random
 from datetime import datetime
 import json
-from credentials import PEXELS_API_KEY  # keep this import
+from credentials import PEXELS_API_KEY
 
 def get_daily_image():
     # ====================== CONFIG ======================
-    # REMOVE this line ↓↓↓ (it causes the error)
-    # PEXELS_API_KEY = PEXELS_API_KEY
+
 
     CATEGORY = "tech"
-    SAVE_DIR = r"C:\Users\hende\pexels_im"
+    SAVE_DIR = r"C:\Users\Hender\pexels_im"
     NUM_RESULTS = 10
     # ====================================================
 

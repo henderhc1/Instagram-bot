@@ -1,6 +1,6 @@
 # bot/post.py
 from instagrapi.exceptions import LoginRequired, PleaseWaitFewMinutes
-from bot.auth import login_with_session
+from auth import login_with_session
 
 
 def post_image(image_path: str, caption: str):
